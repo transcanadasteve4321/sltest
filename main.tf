@@ -3,3 +3,7 @@ resource "aws_ssm_parameter" "stephen-temp" {
   type  = "String"
   value = "barbar"
 }
+
+output "stephen_temp_arn" {
+  value = aws_ssm_parameter.tephen-temp.arn
+)
