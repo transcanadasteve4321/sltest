@@ -1,5 +1,5 @@
 resource "aws_ssm_parameter" "stephen-temp" {
-  name  = "foo"
+  name  = "footest"
   type  = "String"
   value = "barbar"
 }
